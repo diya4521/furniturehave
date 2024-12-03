@@ -1,0 +1,94 @@
+/*Font-family Abril Fatface */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Font-family  poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+/******************** Header ********************/
+
+.header{
+  background-color: #F1EEEA;
+}
+
+.to{
+  position: relative;
+  right: 0;
+  left: 37px;
+  bottom: 11px;
+  font-size: 11px;
+}
+
+a[title=color]{
+  color: #BC9578;
+}
+
+/******************** Home Page ********************/
+
+/******************** Main Section ********************/
+
+.main{
+  height: 800px;
+  background-color: #F1EEEA;
+}
+
+.textmain{                  
+  position: relative;
+  top: 100px;
+}
+
+.textmain .color{
+  color: #D7D4D0;
+  font-family: "Abril-fatface" ;
+  font-size: 175px;
+  line-height: 0.75em;
+  font-weight: bold ;
+}
+
+.image{
+  position: relative;
+  top: 30px;
+
+}
+
+.img{
+  height: 450px;
+  width: 450px;
+  z-index: 1;
+}
+
+/******************** About Section ********************/
+
+.about{
+  border: 1px solid red;
+  height: 600px;
+  background-color: #F1EEEA;
+  display: flex;
+}
+
+.left{
+  width: 50%;
+  text-align: end;
+  border: 1px solid red;
+}
+
+.lefttext{
+  padding-left: 10px;
+}
+
+.ap{
+  color: #B89B86;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.h1a{
+  font-weight: bold;
+  font-family: "Abril-fatface" ;
+}
+
+.right{
+  border: 1px solid red;
+  width: 50%;
+}
