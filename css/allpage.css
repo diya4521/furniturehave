@@ -1,18 +1,30 @@
 /*Font-family Abril Fatface */
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 /* Font-family  poppins */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
 
-/******************** Header ********************/
-
-.header{
-  background-color: #F1EEEA;
+@font-face {
+  font-family: "poppins";
+  src: url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
 }
 
-.to{
+@font-face {
+  font-family: "Abril-fatface";
+  src: url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+}
+
+
+
+/******************** Header ********************/
+
+.header {
+  background-color: #f1eeea;
+}
+
+.to {
   position: relative;
   right: 0;
   left: 37px;
@@ -20,39 +32,38 @@
   font-size: 11px;
 }
 
-a[title=color]{
-  color: #BC9578;
+a[title="color"] {
+  color: #bc9578;
 }
 
 /******************** Home Page ********************/
 
 /******************** Main Section ********************/
 
-.main{
+.main {
   height: 800px;
-  background-color: #F1EEEA;
+  background-color: #f1eeea;
 }
 
-.textmain{                  
+.textmain {
   position: relative;
   top: 100px;
 }
 
-.textmain .color{
-  color: #D7D4D0;
-  font-family: "Abril-fatface" ;
+.textmain .color {
+  color: #d7d4d0;
+  font-family: "Abril-fatface";
   font-size: 175px;
   line-height: 0.75em;
-  font-weight: bold ;
+  font-weight: bold;
 }
 
-.image{
+.image {
   position: relative;
   top: 30px;
-
 }
 
-.img{
+.img {
   height: 450px;
   width: 450px;
   z-index: 1;
@@ -60,35 +71,265 @@ a[title=color]{
 
 /******************** About Section ********************/
 
-.about{
-  border: 1px solid red;
-  height: 600px;
-  background-color: #F1EEEA;
+.about {
+  -border: 1px solid red;
+  height: 550px;
+  background-color: #f1eeea;
   display: flex;
 }
 
-.left{
+.left {
   width: 50%;
   text-align: end;
-  border: 1px solid red;
+  -border: 1px solid red;
 }
 
-.lefttext{
-  padding-left: 10px;
+.lefttext {
+  padding: 30px;
+  box-sizing: border-box;
 }
 
-.ap{
-  color: #B89B86;
+.ap {
+  color: #b89b86;
   font-weight: 400;
   font-size: 18px;
+  font-family: "poppins";
 }
 
-.h1a{
+.h1a {
   font-weight: bold;
-  font-family: "Abril-fatface" ;
+  font-family: "Abril-fatface";
 }
 
-.right{
-  border: 1px solid red;
+.right {
+  border-left: 1px solid rgba(128, 128, 128, 0.329);
   width: 50%;
+}
+
+.righttext {
+  padding: 30px;
+  padding-top: 170px;
+  box-sizing: border-box;
+}
+
+.h2ri {
+  font-weight: bold;
+  font-family: "Abril-fatface";
+}
+
+.rip {
+  font-family: "poppins";
+  color: #6a6f78;
+}
+
+/******************** Lightning Solutions Section ********************/
+
+.lightning {
+  -border: 1px solid red;
+  height: 700px;
+  background-color: #f1eeea;
+}
+
+.lightningleft {
+  -border: 1px solid green;
+}
+
+.textleftli {
+  -border: 1px solid red;
+  position: relative;
+  top: 50px;
+  left: 30px;
+  width: 70%;
+}
+
+.lp {
+  color: #b89b86;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Poppins";
+}
+
+.lh {
+  font-weight: 600;
+  font-family: "Abril-fatface";
+  font-size: 50px;
+}
+
+.lp1 {
+  font-family: "poppins";
+  color: #6a6f78;
+}
+
+.btn {
+  border-radius: 0;
+  letter-spacing: 2px;
+  font-family: "poppins";
+}
+
+.lightningright {
+  -border: 1px solid red;
+  background: url(/images/bg-05.jpg);
+  background-size: 65% 100%;
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+.lightningright .w {
+  padding-top: 110px;
+  width: 60%;
+  box-sizing: border-box;
+}
+
+/******************* Table and Chair Sets **********************/
+
+.TACS {
+  -border: 1px solid red;
+  height: 650px;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(/images/bg-07.jpg);
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+.tacstext {
+  -border: 1px solid red;
+  width: 50%;
+  position: absolute;
+  right: 0;
+  top: 150px;
+}
+
+.TACS-p {
+  font-family: "poppins";
+}
+
+.TACS-h1 {
+  line-height: 0.85em;
+  text-transform: uppercase;
+  font-size: 4.25rem;
+  font-family: "Abril Fatface";
+  letter-spacing: 10px 10px;
+}
+
+.TACS-h3 {
+  line-height: 1.2em;
+  font-family: "Abril Fatface";
+  font-size: 1.75rem;
+}
+
+/******************* Popular Products **********************/
+
+.Popular {
+  height: 850px;
+  background-color: #f1eeea;
+  -border: 1px solid red;
+}
+
+.top {
+  -border: 1px solid red;
+  height: 200px;
+}
+.top-p {
+  color: #b89b86;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: "poppins";
+}
+.top-h1 {
+  line-height: 0.85em;
+  text-transform: uppercase;
+  font-size: 4.25rem;
+  font-family: "Abril Fatface";
+  letter-spacing: 10px 10px;
+  font-weight: 400;
+}
+
+.textP {
+  font-size: 14px;
+  font-family: "poppins";
+  color: #6a6f78;
+}
+
+.texth2__ {
+  font-family: "Abril Fatface";
+  font-size: 20px;
+}
+
+.i {
+  font-size: 14px;
+  color: #b89b86;
+}
+
+.stfont {
+  font-weight: 600;
+  color: #6a6f78;
+  font-size: 14px;
+  font-family: "poppins";
+}
+
+.imgbox {
+  position: relative;
+}
+
+.T3 {
+  font-weight: 500;
+  color: #6a6f78;
+  background-color: #f1eeea;
+  position: absolute;
+  top: 20px;
+  left: 15px;
+}
+
+.T33 {
+  color: #6a6f78;
+  background-color: #f1eeea;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  display: none;
+}
+
+.imgbox:hover .T33 {
+  display: block;
+}
+
+/******************* Quality Craftsmanship **********************/
+
+.qmain {
+  height: 800px;
+  background-color: #f1eeea;
+}
+
+.qdiv {
+  height: 60%;
+  background-color: white;
+}
+
+.box2{
+  position: relative;
+  right: 40px;
+  width:580px;
+  height: 600px;
+  background-color: white;
+  -border: 1px solid red;
+}
+
+.boxxx{
+  -border: 1px solid red;
+  height: 95%;
+  box-sizing: border-box;
+  padding: 70px;
+}
+
+.textxx{
+  padding-top: 10px;
+  box-sizing: border-box;
+  -border: 1px solid red;
+  font-family: "Abril Fatface";
+  letter-spacing: 10px 10px;
+  font-weight: 400;
+  font-size: 50px;
 }
