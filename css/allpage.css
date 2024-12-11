@@ -193,6 +193,7 @@ a[title="color"] {
   background-attachment: fixed;
   position: relative;
 }
+
 .tacstext {
   -border: 1px solid red;
   width: 50%;
@@ -231,6 +232,7 @@ a[title="color"] {
   -border: 1px solid red;
   height: 200px;
 }
+
 .top-p {
   color: #b89b86;
   font-size: 18px;
@@ -238,6 +240,7 @@ a[title="color"] {
   letter-spacing: 2px;
   font-family: "poppins";
 }
+
 .top-h1 {
   line-height: 0.85em;
   text-transform: uppercase;
@@ -280,8 +283,8 @@ a[title="color"] {
   background-color: #f1eeea;
   position: absolute;
   top: 20px;
-  left: 15px; 
-  
+  left: 15px;
+
 }
 
 .T33 {
@@ -300,8 +303,11 @@ a[title="color"] {
 /******************* Quality Craftsmanship **********************/
 
 .qmain {
-  height: 800px;
+  height: 870px;
   background-color: #f1eeea;
+  display: inline-block;
+  width: 100%;
+  -border: 1px solid red;
 }
 
 .qdiv {
@@ -309,23 +315,67 @@ a[title="color"] {
   background-color: white;
 }
 
-.box2{
+.pqc {
+  color: #b89b86;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: "poppins";
+  box-sizing: border-box;
+  -border: 1px solid red;
+  padding-right: 30px;
+}
+
+.h1dr {
+  font-size: 45px;
+  text-transform: uppercase;
+  font-family: "Abril Fatface";
+  -border: 1px solid red;
+  font-size: 57px;
+  font-weight: 400;
+  line-height: 0.90em;
+  box-sizing: border-box;
+  padding: 30px;
+  padding-top: 0;
+}
+
+.box2 {
   position: relative;
   right: 40px;
-  width:580px;
-  height: 600px;
+  top: 2px;
+  bottom: 0;
+  width: 580px;
+  height: 590px;
   background-color: white;
   -border: 1px solid red;
 }
 
-.boxxx{
+.boxxx {
   -border: 1px solid red;
   height: 95%;
   box-sizing: border-box;
   padding: 70px;
 }
 
-.textxx{
+.imgRight {
+  margin-left: -10px;
+  -border: 1px solid red;
+}
+
+.pbox{
+  -border: 1px solid red;
+  margin-bottom: 50px;
+  box-sizing: border-box;
+  padding: 30px;
+}
+
+.pcls{
+  font-size: 16px;
+  font-family: "poppins";
+  color: #6a6f78;
+}
+
+.textxx {
   padding-top: 10px;
   box-sizing: border-box;
   -border: 1px solid red;
@@ -333,4 +383,18 @@ a[title="color"] {
   letter-spacing: 10px 10px;
   font-weight: 400;
   font-size: 50px;
+}
+
+/********************* Discover Your Perfect Set *********************/
+
+.DYPS {
+  -border: 1px solid red;
+  height: 600px;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(/images/bg-03.jpg);
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
 }
