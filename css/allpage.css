@@ -357,9 +357,16 @@ a[title="color"] {
   padding: 70px;
 }
 
+.imgdiv{
+  border: 1px solid red;
+  
+}
+
 .imgRight {
   margin-left: -10px;
   -border: 1px solid red;
+  object-fit: cover;
+  height: 501.28PX;
 }
 
 .pbox{
