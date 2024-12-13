@@ -429,3 +429,60 @@ a[title="color"] {
   text-transform: uppercase;
   font-family: "Abril Fatface";
 }
+
+/******************** Popular Products 2 ********************/
+
+.Popular_1 {
+  height: 770px;
+  background-color: #f1eeea;
+  -border: 1px solid green;
+}
+
+.Popular__2 {
+  height: 650px;
+  background-color: #f1eeea;
+  -border: 1px solid red;
+}
+
+/********************* Explore *********************/
+
+.Explore {
+  -border: 1px solid red;
+  height: 600px;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(/images/bg-02.jpg);
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.dypstexts{
+  -border: 1px solid red;
+  text-align: left;
+}
+
+
+/******************** footer ********************/
+
+.footer{
+  border-bottom:1px solid #6a6f7850;
+  height: 100px;
+}
+
+.h{
+  color: #a47e62;
+  font-size: 18px;
+  font-weight: 400;
+}
+.icon{
+  color: black;
+  font-size: 18px;
+}
+
+.icon:hover{
+  color: #a47e62;
+}
