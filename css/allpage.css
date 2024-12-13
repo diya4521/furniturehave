@@ -220,6 +220,11 @@ a[title="color"] {
   font-size: 1.75rem;
 }
 
+.btnb1:hover{
+  background-color: white;
+  color: black !important; 
+}
+
 /******************* Popular Products **********************/
 
 .Popular {
@@ -358,8 +363,9 @@ a[title="color"] {
 }
 
 .imgdiv{
-  border: 1px solid red;
-  
+  -border: 1px solid red;
+  position: absolute;
+  z-index: 1;
 }
 
 .imgRight {
@@ -404,4 +410,22 @@ a[title="color"] {
   background-size: cover;
   background-attachment: fixed;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dypstexts{
+  -border: 1px solid red;
+  
+  text-align: center;
+}
+.dyps-p{
+  font-size: 18px;
+  font-family: "poppins"; 
+}
+.dyps-h1 {
+  line-height: 0.90em;
+  font-size: 65px;
+  text-transform: uppercase;
+  font-family: "Abril Fatface";
 }
