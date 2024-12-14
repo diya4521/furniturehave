@@ -125,9 +125,11 @@ a[title="color"] {
 /******************** Lightning Solutions Section ********************/
 
 .lightning {
-  -border: 1px solid red;
+  border: 1px solid red;
   height: 700px;
+  width: 100%;
   background-color: #f1eeea;
+  overflow: hidden;
 }
 
 .lightningleft {
@@ -171,7 +173,7 @@ a[title="color"] {
   background: url(/images/bg-05.jpg);
   background-size: 65% 100%;
   background-repeat: no-repeat;
-  background-position: center right;
+  background-position: right  ;
 }
 
 .lightningright .w {
