@@ -125,9 +125,9 @@ a[title="color"] {
 /******************** Lightning Solutions Section ********************/
 
 .lightning {
-  border: 1px solid red;
+  /* border: 1px solid red;
   height: 700px;
-  width: 100%;
+  width: 100%; */
   background-color: #f1eeea;
   overflow: hidden;
 }
@@ -140,7 +140,7 @@ a[title="color"] {
   -border: 1px solid red;
   position: relative;
   top: 50px;
-  left: 30px;
+  -left: 30px;
   width: 70%;
 }
 
@@ -487,4 +487,29 @@ a[title="color"] {
 
 .icon:hover{
   color: #a47e62;
+}
+
+
+
+/******************************** SHOP PAGE  ********************************/
+
+
+.shopmain {
+  height: 450px;
+  background-color: #f1eeea;
+}
+
+.textmain .color {
+  color: #d7d4d0;
+  font-family: "Abril-fatface";
+  font-size: 175px;
+  line-height: 0.75em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.Popular {
+  height: fit-content;
+  background-color: #f1eeea;
+  -border: 1px solid red;
 }
