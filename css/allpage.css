@@ -488,22 +488,3 @@ a[title="color"] {
 .icon:hover{
   color: #a47e62;
 }
-
-
-
-/******************************** SHOP PAGE  ********************************/
-
-
-.shopmain {
-  height: 450px;
-  background-color: #f1eeea;
-}
-
-.textmain .color {
-  color: #d7d4d0;
-  font-family: "Abril-fatface";
-  font-size: 175px;
-  line-height: 0.75em;
-  font-weight: bold;
-  text-transform: uppercase;
-}
