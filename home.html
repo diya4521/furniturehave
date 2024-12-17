@@ -15,7 +15,6 @@
   <div class="main_1">
 
     <!------------------- header -------------------->
-
     <nav class="navbar navbar-expand-md header">
       <div class="container">
 
@@ -26,10 +25,19 @@
         </ul>
 
         <ul class="navbar-nav align-items-center">
-          <li class="nav-item"><a href="" class="nav-link" title="color">Home</a></li>
-          <li class="nav-item"><a href="" class="nav-link">Shop</a></li>
-          <li class="nav-item"><a href="" class="nav-link">About</a></li>
-          <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
+          <li class="nav-item"><a href="home.html" class="nav-link" title="color">Home</a></li>
+          <li class="nav-item dropdown">
+            <a href="shop.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
+                aria-expanded="false">Shop</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="living.html">Living</a></li>
+                <li><a class="dropdown-item" href="office.html">Office</a></li>
+                <li><a class="dropdown-item" href="bedroom.html">Bedroom</a></li>
+                <li><a class="dropdown-item" href="Dining.html">Dining</a></li>
+            </ul>
+        </li>
+          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
         </ul>
 
         <ul class="navbar-nav">
@@ -636,7 +644,7 @@
     </div>
   </nav>
 
-  <nav class="navbar navbar-expand-md footer1">
+  <nav class="navbar navbar-expand-md footer1 position-relative">
     <div class="container">
 
       <ul class="navbar-nav align-items-center">
@@ -651,7 +659,34 @@
     </div>
   </nav>
 
+  <!-------------------- scroll button -------------------->
+
+  <buttom class="btntop text-white"><i class="fa-solid fa-chevron-up"></i></buttom>
+
   <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/jquery-3.7.1.min.js"></script>
+
+  <script>
+    $(window).scroll(function () {
+        if ($(this).scrollTop() >= 100) {
+          $(".btntop").fadeIn(200);
+        } else {
+          $(".btntop").fadeOut(200);
+        }
+      });
+      $(".btntop").click(function () {     
+        $("body,html").animate(
+          {
+            scrollTop: 0,
+          },
+          500
+        );
+      });
+
+    
+    </script>
+    
+
 </body>
 
 </html>

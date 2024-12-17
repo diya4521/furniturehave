@@ -36,6 +36,29 @@ a[title="color"] {
   color: #bc9578;
 }
 
+.dropdown-menu {
+  border-top: 2px solid #bc9578;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  width: 200px;
+  border-radius: 0;
+}
+
+.navbar-nav .dropdown:hover .dropdown-menu {
+  display: block;
+  opacity: 1;
+}
+
+.navbar-nav .dropdown-item {
+  padding: 10px 15px;
+}
+
+.navbar-nav .dropdown-item:hover {
+  background-color: transparent;
+  color: #bc9578;
+}
+
 /******************** Home Page ********************/
 
 /******************** Main Section ********************/
@@ -173,7 +196,7 @@ a[title="color"] {
   background: url(/images/bg-05.jpg);
   background-size: 65% 100%;
   background-repeat: no-repeat;
-  background-position: right  ;
+  background-position: right;
 }
 
 .lightningright .w {
@@ -222,9 +245,9 @@ a[title="color"] {
   font-size: 1.75rem;
 }
 
-.btnb1:hover{
+.btnb1:hover {
   background-color: white;
-  color: black !important; 
+  color: black !important;
 }
 
 /******************* Popular Products **********************/
@@ -364,7 +387,7 @@ a[title="color"] {
   padding: 70px;
 }
 
-.imgdiv{
+.imgdiv {
   -border: 1px solid red;
   position: absolute;
   z-index: 1;
@@ -377,14 +400,14 @@ a[title="color"] {
   height: 501.28PX;
 }
 
-.pbox{
+.pbox {
   -border: 1px solid red;
   margin-bottom: 50px;
   box-sizing: border-box;
   padding: 30px;
 }
 
-.pcls{
+.pcls {
   font-size: 16px;
   font-family: "poppins";
   color: #6a6f78;
@@ -416,15 +439,18 @@ a[title="color"] {
   justify-content: center;
   align-items: center;
 }
-.dypstexts{
+
+.dypstexts {
   -border: 1px solid red;
-  
+
   text-align: center;
 }
-.dyps-p{
+
+.dyps-p {
   font-size: 18px;
-  font-family: "poppins"; 
+  font-family: "poppins";
 }
+
 .dyps-h1 {
   line-height: 0.90em;
   font-size: 65px;
@@ -462,7 +488,8 @@ a[title="color"] {
   justify-content: left;
   align-items: center;
 }
-.dypstexts{
+
+.dypstexts {
   -border: 1px solid red;
   text-align: left;
 }
@@ -470,22 +497,23 @@ a[title="color"] {
 
 /******************** footer ********************/
 
-.footer{
-  border-bottom:1px solid #6a6f7850;
+.footer {
+  border-bottom: 1px solid #6a6f7850;
   height: 120px;
 }
 
-.h{
+.h {
   color: #a47e62;
   font-size: 18px;
   font-weight: 400;
 }
-.icon{
+
+.icon {
   color: black;
   font-size: 18px;
 }
 
-.icon:hover{
+.icon:hover {
   color: #a47e62;
 }
 
@@ -512,4 +540,38 @@ a[title="color"] {
   height: fit-content;
   background-color: #f1eeea;
   -border: 1px solid red;
+}
+
+
+/******************************** ABOUT PAGE  ********************************/
+
+
+.aboutmain {
+  height: 530px;
+  background-color: #f1eeea;
+}
+
+.image11 {
+  position: relative;
+  top: 60px;
+}
+
+.bg11 {
+  height: 260px;
+  width: 360px;
+  z-index: 1;
+}
+
+
+/* scroll button */
+
+.btntop {
+  padding: 5px 8px;
+  background: #a47e62;
+  display: none;
+  z-index: 10;
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  cursor: pointer;
 }
