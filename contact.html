@@ -109,23 +109,38 @@
     </div>
 
     <div class="col-md-6">
-      <div class="container">
-        <form>
-          <h3>Name*</h3>
+      <form class="form row">
+        <div class="form-group">
+          <h5 class="fw-bold text-secondary">Name <span class="text-danger">*</span></h5>
+        </div>
+        <div class="col-md-6 form-group mb-5 mt-4">
+          <input type="text" class="form-control rounded-0 input">
+          <label class="fw-normal text-secondary">First</label>
+        </div>
 
-          <div class="d-flex">
-            <div class="me-5">
-              <input type="text" class="form-control rounded-0"> <br />
-              <label for="">First</label>
-            </div>
-            <div>
-              <input type="text" class="form-control rounded-0"> <br />
-              <label for="">Last</label>
-            </div>
-          </div>
+        <div class="col-md-6 form-group mb-5 mt-4">
+          <input type="text" class="form-control rounded-0 input">
+          <label class="fw-normal text-secondary">Last</label>
+        </div>
 
-        </form>
-      </div>
+        <div class="form-group">
+          <h5 class="fw-bold text-secondary">Email <span class="text-danger">*</span></h5>
+        </div>
+        <div class="col-md-12 form-group">
+          <input type="text" class="form-control rounded-0 mb-5 mt-4">
+
+        </div>
+
+        <div class="form-group">
+          <h5 class="fw-bold text-secondary fs-6">Message</h5>
+        </div>
+        <div class="col-md-12 form-group">
+          <textarea class="form-control rounded-0" rows="5"></textarea>
+
+          <button class="btn btn-white border border-dark btn-lg fs-6 py-2 px-4 mt-3 send">SEND</button>
+
+        </div>
+      </form>
     </div>
   </div>
 
@@ -176,7 +191,9 @@
       </ul>
 
       <ul class="navbar-nav align-items-center">
-        <li class="nav-item"><a href="" class="nav-link">All rights reserved</a></li>
+        <li class="nav-item"><a href="" class="nav-link">All rights reserved
+          </a>
+        </li>
       </ul>
     </div>
   </nav>

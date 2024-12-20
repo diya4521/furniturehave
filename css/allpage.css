@@ -621,7 +621,7 @@ a[title="color"] {
 }
 
 .AOSL {
-  border-right: 1px solid #D6D4D0;
+  border-right: 1px solid #d6d4d0;
 }
 
 .h1aA {
@@ -636,7 +636,6 @@ a[title="color"] {
   line-height: 50px;
   font-family: "Abril Fatface";
 }
-
 
 /********************  About Explore ******************* */
 
@@ -657,13 +656,14 @@ a[title="color"] {
 
 /******************** Contact Page ********************/
 
-.AAA{
-  border-right: 1px solid  #D6D4D0;
+.AAA {
+  border-right: 1px solid #d6d4d0;
+  height: 600px;
 }
 
 .get {
   width: 1361px;
-  height: 600px;
+  height: 700px;
   background-color: #f1eeea;
 }
 
@@ -672,24 +672,34 @@ a[title="color"] {
   background-color: black;
 }
 
-.span{
+.span {
   letter-spacing: 1px;
   font-weight: 400;
-  font-family:"poppins" ;
+  font-family: "poppins";
 }
 
-.hr{
+.hr {
   width: 85%;
 }
 
-.icon{
+.icon {
   font-size: 20px;
 }
 
-.textarea{
+.textarea {
   height: 150px;
 }
 
+/******************** form css ********************/
+
+input {
+  height: 50px;
+}
+
+.send:hover {
+  color: white;
+  background-color: black;
+}
 
 /******************** scroll button ********************/
 
