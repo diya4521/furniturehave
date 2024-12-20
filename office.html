@@ -491,29 +491,8 @@
 <buttom class="btntop text-white"><i class="fa-solid fa-chevron-up"></i></buttom>
 
   <script src="js/bootstrap.bundle.min.js"></script>
-  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/jquery-3.7.1.min.js"></script> 
+  <script src="js/button.js"></script>
 
-  <script>
-    $(window).scroll(function () {
-        if ($(this).scrollTop() >= 100) {
-          $(".btntop").fadeIn(200);
-        } else {
-          $(".btntop").fadeOut(200);
-        }
-      });
-      $(".btntop").click(function () {     
-        $("body,html").animate(
-          {
-            scrollTop: 0,
-          },
-          500
-        );
-      });
-
-    
-    </script>
-    
-
-
-    </body>
-    </html>
+  </body>
+</html>

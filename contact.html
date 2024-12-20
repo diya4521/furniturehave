@@ -111,31 +111,18 @@
     <div class="col-md-6">
       <div class="container">
         <form>
+          <h3>Name*</h3>
 
-          <h5 class="ms-5">Name*</h2>
-          
           <div class="d-flex">
-            <input type="text" class="form-control-sm rounded-0 border-0">
-          <p>First</p>  
-
-          <input type="text" class="form-control-sm rounded-0 border-0">
-          <p>Last</p>
-
+            <div>
+              <input type="text" class="form-control rounded-0"> <br />
+              <label for="">First</label>
+            </div>
+            <div>
+              <input type="text" class="form-control rounded-0"> <br />
+              <label for="">Last</label>
+            </div>
           </div>
-
-          <label for="" class="form-label">Email*</label>
-          <input type="text" class="form-control rounded-0">
-
-          <br>
-
-          <label for="" class="form-label">Message</label>
-
-          <textarea class="form-control rounded-0 textarea" ></textarea>
-          <label for=""></label>
-
-          <br>
-
-          <button class="btn btn-lg btn-white border border-dark p-2 btnb1_">SEND</button>
 
         </form>
       </div>
@@ -204,25 +191,7 @@
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/jquery-3.7.1.min.js"></script>
 
-  <script>
-    $(window).scroll(function () {
-      if ($(this).scrollTop() >= 100) {
-        $(".btntop").fadeIn(200);
-      } else {
-        $(".btntop").fadeOut(200);
-      }
-    });
-    $(".btntop").click(function () {
-      $("body,html").animate(
-        {
-          scrollTop: 0,
-        },
-        500
-      );
-    });
-
-
-  </script>
+  <script src="js/button.js"></script>
 
 
 
