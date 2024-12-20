@@ -29,14 +29,14 @@
           <li class="nav-item"><a href="home.html" class="nav-link">Home</a></li>
           <li class="nav-item dropdown">
             <a href="shop.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
-                aria-expanded="false">Shop</a>
+              aria-expanded="false">Shop</a>
             <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="living.html">Living</a></li>
-                <li><a class="dropdown-item" href="office.html">Office</a></li>
-                <li><a class="dropdown-item" href="bedroom.html">Bedroom</a></li>
-                <li><a class="dropdown-item" href="Dining.html">Dining</a></li>
+              <li><a class="dropdown-item" href="living.html">Living</a></li>
+              <li><a class="dropdown-item" href="office.html">Office</a></li>
+              <li><a class="dropdown-item" href="bedroom.html">Bedroom</a></li>
+              <li><a class="dropdown-item" href="Dining.html">Dining</a></li>
             </ul>
-        </li>
+          </li>
           <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
           <li class="nav-item"><a href="contact.html" class="nav-link" title="color">Contact</a></li>
         </ul>
@@ -69,9 +69,135 @@
 
   </div>
 
+  <!-------------------- get in touch -------------------->
+
+  <div class="row get p-5">
+    <div class="col-md-6">
+      <div class="container AAA">
+        <h1 class="h1aA">
+          Get in touch
+        </h1>
+        <p class="rip">
+          Contact our friendly team for any questions, concerns, or to <br>
+          explore how we can assist in making your furniture dreams <br>
+          come true.
+        </p>
+        <i class="fa-solid fa-location-dot px-3 icon"></i><span class="span">ADDRESS</span>
+        <p class="rip ms-5">2972 Westheimer Rd. Santa Ana, Illinois 85486</p>
+
+        <hr class="hr">
+
+        <i class="fa-solid fa-phone px-3 icon"></i><span class="span">PHONE</span>
+        <p class="rip ms-5">(405) 555-0128</p>
+
+        <hr class="hr">
+
+        <i class="fa-solid fa-envelope px-3 icon"></i><span class="span">EMAIL</span>
+        <p class="rip ms-5">hello@example.com</p>
+
+        <hr class="hr">
+
+        <p class="span">FOLLOW</p>
+
+        <i class="fa-brands fa-facebook me-2 icon"></i>
+        <i class="fa-brands fa-twitter me-2 icon"></i>
+        <i class="fa-brands fa-instagram me-2 icon"></i>
+        <i class="fa-brands fa-youtube icon"></i>
+
+      </div>
+
+    </div>
+
+    <div class="col-md-6">
+      <div class="container">
+        <form>
+
+          <h5 class="ms-5">Name*</h2>
+          
+          <div class="d-flex">
+            <input type="text" class="form-control-sm rounded-0 border-0">
+          <p>First</p>  
+
+          <input type="text" class="form-control-sm rounded-0 border-0">
+          <p>Last</p>
+
+          </div>
+
+          <label for="" class="form-label">Email*</label>
+          <input type="text" class="form-control rounded-0">
+
+          <br>
+
+          <label for="" class="form-label">Message</label>
+
+          <textarea class="form-control rounded-0 textarea" ></textarea>
+          <label for=""></label>
+
+          <br>
+
+          <button class="btn btn-lg btn-white border border-dark p-2 btnb1_">SEND</button>
+
+        </form>
+      </div>
+    </div>
+  </div>
 
 
-<!-------------------- scroll button -------------------->  
+  <!-------------------- footer -------------------->
+
+  <nav class="navbar navbar-expand-md footer">
+    <div class="container">
+
+      <ul class="navbar-nav align-items-center">
+        <li class="nav-item"><a href="" class="nav-link">
+            <img src="images/logo.svg" alt="" width="150px">
+          </a></li>
+      </ul>
+
+      <ul class="navbar-nav align-items-center">
+        <li class="nav-item"><a href="" class="nav-link h">Home</a></li>
+        <li class="nav-item"><a href="" class="nav-link h">Shop</a></li>
+        <li class="nav-item"><a href="" class="nav-link h">About</a></li>
+        <li class="nav-item"><a href="" class="nav-link h">Contact</a></li>
+      </ul>
+
+      <ul class="navbar-nav">
+        <li class="nav-item"><a href="" class="nav-link ">
+            <i class="fa-brands fa-facebook icon"></i>
+          </a></li>
+        <li class="nav-item"><a href="" class="nav-link">
+            <i class="fa-brands fa-twitter icon"></i>
+          </a></li>
+        <li class="nav-item"><a href="" class="nav-link">
+            <i class="fa-brands fa-instagram icon"></i>
+          </a></li>
+        <li class="nav-item"><a href="" class="nav-link">
+            <i class="fa-brands fa-youtube icon"></i>
+          </a></li>
+      </ul>
+
+    </div>
+  </nav>
+
+  <nav class="navbar navbar-expand-md footer1 position-relative">
+    <div class="container">
+
+      <ul class="navbar-nav align-items-center">
+        <li class="nav-item"><a href="" class="nav-link">
+            Copyright © 2024
+          </a></li>
+      </ul>
+
+      <ul class="navbar-nav align-items-center">
+        <li class="nav-item"><a href="" class="nav-link">All rights reserved</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+
+
+  <!-------------------- scroll button -------------------->
 
   <buttom class="btntop text-white"><i class="fa-solid fa-chevron-up"></i></buttom>
 
@@ -80,25 +206,26 @@
 
   <script>
     $(window).scroll(function () {
-        if ($(this).scrollTop() >= 100) {
-          $(".btntop").fadeIn(200);
-        } else {    
-          $(".btntop").fadeOut(200);
-        }
-      });
-      $(".btntop").click(function () {     
-        $("body,html").animate(
-          {
-            scrollTop: 0,
-          },
-          500
-        );
-      });
+      if ($(this).scrollTop() >= 100) {
+        $(".btntop").fadeIn(200);
+      } else {
+        $(".btntop").fadeOut(200);
+      }
+    });
+    $(".btntop").click(function () {
+      $("body,html").animate(
+        {
+          scrollTop: 0,
+        },
+        500
+      );
+    });
 
-    
-    </script>
-    
+
+  </script>
+
 
 
 </body>
+
 </html>

@@ -613,13 +613,15 @@ a[title="color"] {
   background-color: #f1eeea;
   -border: 1px solid red;
 }
+
 .AOS {
   width: 1300px;
   -border: 1px solid red;
   background-color: #f1eeea;
 }
+
 .AOSL {
-  border-right: 1px solid rgba(128, 128, 128, 0.521);
+  border-right: 1px solid #D6D4D0;
 }
 
 .h1aA {
@@ -634,6 +636,61 @@ a[title="color"] {
   line-height: 50px;
   font-family: "Abril Fatface";
 }
+
+
+/********************  About Explore ******************* */
+
+.Explore2 {
+  -border: 1px solid red;
+  height: 600px;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(/images/bg-04.jpg);
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+/******************** Contact Page ********************/
+
+.AAA{
+  border-right: 1px solid  #D6D4D0;
+}
+
+.get {
+  width: 1361px;
+  height: 600px;
+  background-color: #f1eeea;
+}
+
+.btnb1_:hover {
+  color: white;
+  background-color: black;
+}
+
+.span{
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-family:"poppins" ;
+}
+
+.hr{
+  width: 85%;
+}
+
+.icon{
+  font-size: 20px;
+}
+
+.textarea{
+  height: 150px;
+}
+
+
 /******************** scroll button ********************/
 
 .btntop {
