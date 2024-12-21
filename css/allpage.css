@@ -735,4 +735,13 @@ input {
     background-color: white;
     padding: 10px;
   }
+
+  .main_1 .aboutmain .color {
+    border: 1px solid red;
+    height: auto;
+  }
+
+  .main_1 {
+    border: 1px solid red;
+  }
 }
