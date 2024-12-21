@@ -17,36 +17,43 @@
     <!------------------- header -------------------->
 
     <nav class="navbar navbar-expand-md header">
-      <div class="container">
+      <div class=" container container-fluid ">
 
-        <ul class=" one_2 navbar-nav align-items-center">
-          <li class="nav-item"><a href="" class="nav-link">
-              <img src="images/logo.svg" alt="">
+        <ul class="one_2 navbar-nav align-items-center">
+          <li class="nav-item"><a href="home.html" class="nav-link">
+              <img class="img-fluid logo" src="images/logo.svg" alt="">
             </a></li>
         </ul>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#drop">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse m-auto " id="drop">
 
-        <ul class="navbar-nav align-items-center">
-          <li class="nav-item"><a href="home.html" class="nav-link">Home</a></li>
-          <li class="nav-item dropdown">
-            <a href="shop.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
-              aria-expanded="false">Shop</a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="living.html">Living</a></li>
-              <li><a class="dropdown-item" href="office.html">Office</a></li>
-              <li><a class="dropdown-item" href="bedroom.html">Bedroom</a></li>
-              <li><a class="dropdown-item" href="Dining.html">Dining</a></li>
-            </ul>
-          </li>
-          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-          <li class="nav-item"><a href="contact.html" class="nav-link" title="color">Contact</a></li>
-        </ul>
+          <ul class="navbar-nav w-100 d-flex justify-content-center">
+            <li class="nav-item"><a href="home.html" class="nav-link">Home</a></li>
+            <li class="nav-item dropdown">
+              <a href="shop.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
+                aria-expanded="false">Shop</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="living.html">Living</a></li>
+                <li><a class="dropdown-item" href="office.html">Office</a></li>
+                <li><a class="dropdown-item" href="bedroom.html">Bedroom</a></li>
+                <li><a class="dropdown-item" href="Dining.html">Dining</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link" title="color">Contact</a></li>
+          </ul>
 
-        <ul class="navbar-nav">
+
+
+        </div>
+
+        <ul class="navbar-nav d-none d-lg-block">
           <li class="nav-item"><a href="" class="nav-link">
               <span class="px-1 rounded-pill bg-dark text-white to">0</span>
               <i class="fa-solid fa-cart-shopping"></i>
             </a></li>
-          <!-- <li class="nav-item"><a href="" class="nav-link">𝕯!¥@</a></li> -->
         </ul>
 
       </div>
