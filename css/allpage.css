@@ -674,6 +674,11 @@ input {
   height: 50px;
 }
 
+.input:focus {
+  box-shadow: none;
+  border-color: transparent !important;
+}
+
 .send:hover {
   color: white;
   background-color: black;
@@ -717,4 +722,31 @@ input {
   bottom: 30px;
   right: 20px;
   cursor: pointer;
+}
+
+@media (max-width: 375px) {
+  .logo {
+    width: 190px;
+  }
+
+  #drop {
+    -border: 1px solid red;
+    box-sizing: border-box;
+  }
+
+  #drop li {
+    -border: 1px solid red;
+    margin-bottom: 5px;
+    background-color: white;
+    padding: 10px;
+  }
+
+  .main_1 .aboutmain .color {
+    border: 1px solid red;
+    height: auto;
+  }
+
+  .main_1 {
+    border: 1px solid red;
+  }
 }
