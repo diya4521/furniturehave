@@ -741,12 +741,25 @@ input {
     padding: 10px;
   }
 
-  .main_1 .aboutmain .color {
-    border: 1px solid red;
-    height: auto;
+  .main_1{
+    border: 1px solid green;
+    height: 200px;
   }
 
-  .main_1 {
+  .main_1 .aboutmain{
+    border: 1px solid blueviolet;
+  }
+
+  .main_1 .aboutmain .color {
+    border: 1px solid blue;
+    height: auto;
+    font-size: 60px;
+  }
+
+  .main_1 .bg11{
     border: 1px solid red;
+    width:101px;
+    height: 72px;
+    background-size: cover;
   }
 }
