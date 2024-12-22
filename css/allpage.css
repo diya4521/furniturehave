@@ -742,24 +742,51 @@ input {
   }
 
   .main_1{
-    border: 1px solid green;
+    -border: 1px solid green;
     height: 200px;
   }
 
   .main_1 .aboutmain{
-    border: 1px solid blueviolet;
+    -border: 1px solid blueviolet;
   }
 
   .main_1 .aboutmain .color {
-    border: 1px solid blue;
+    -border: 1px solid blue;
     height: auto;
     font-size: 60px;
+    position: absolute;
+    bottom: 10px;
   }
 
   .main_1 .bg11{
-    border: 1px solid red;
+    -border: 1px solid red;
     width:101px;
     height: 72px;
     background-size: cover;
+    position: absolute;
   }
+
+  .get{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 600px;
+  }
+
+  .caaa{
+    border: 1px solid blue;
+    width: 100%;
+    height: fit-content;
+  }
+  .h1aA{
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .rip{
+    font-size: 10px;
+    text-align: center;
+  }
+
 }
